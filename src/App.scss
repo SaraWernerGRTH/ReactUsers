@@ -1,0 +1,55 @@
+@import './components/home/home.scss';
+@import './components/layout/Layout.scss';
+
+.App {
+  text-align: center;
+  font-family: cursive;
+}
+.info{
+  margin-left: 10px;
+  margin-top: 40%;
+}
+.name{
+  font-size: 1.25em;
+  font-weight: bold;
+}
+.card{
+  margin: 1em;
+  width: 20vw;
+  display: inline-flex;}
+.img{
+  width: 200px;
+  height: 200px;
+}
+.chosen{
+  width: 10vw;
+}
+.Form{
+  padding: 4%;
+  text-align: center;
+  color: indianred;
+}
+.input{
+  padding: 0.5%;
+  margin: 2%;
+}
+.previewText{
+  color: red;
+  font-size: 1.5em;
+  padding: 2%;
+}
+.imgPreview{
+  padding: 1%;
+}
+.fileInput{
+  margin: auto;
+}
+.delete-btn{
+  color: red;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+  font-size: 1.5em;
+  position: absolute;
+  padding-left: 1%;
+}
